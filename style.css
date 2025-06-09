@@ -1,5 +1,52 @@
 body {
-  background-color: #e0f7fa;
-  text-align: center;
+  background-color: #00cc88;
   font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #448aff;
+  color: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+strong {
+  font-size: 1.2em;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00cc66;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
